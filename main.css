@@ -1,0 +1,75 @@
+body {
+    background: black;
+    cursor: default;
+    font-family: helvetica;
+    overflow-x: hidden;
+}
+
+#top-title{
+    position: absolute;
+    margin-top: 0;
+    width: 100%;
+    top: 50px;
+    z-index: 2;
+}
+
+
+#top-title h3{
+    position: relative;
+    font-size: 45px;
+    top: -20px;
+    margin: 0;
+    color: rgba(92, 88, 88, 0.815);
+    text-align: center;
+    filter: blur(3px);
+}
+
+#l1{
+    position: relative;
+    font-size: 30px;
+    top: 200px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.589);
+    text-align: center;
+    filter: blur(3px);
+}
+
+#l2{
+    position: relative;
+    font-size: 30px;
+    top: 220px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.589);
+    text-align: center;
+    filter: blur(3px);
+}
+
+#l3{
+    position: relative;
+    font-size: 30px;
+    top: 250px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.589);
+    text-align: center;
+    filter: blur(3px);
+}
+
+#top-title h3:hover {
+    color: rgb(255, 255, 255);
+    filter: blur(0px);
+}
+
+#l1:hover { color: rgb(255, 255, 255);
+    filter: blur(0px);  
+}
+
+
+#l2:hover { color: rgb(255, 255, 255);
+    filter: blur(0px);
+    
+}
+
+#l3:hover { color: rgb(255, 255, 255);
+    filter: blur(0px);
+    
+}
